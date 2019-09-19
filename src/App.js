@@ -100,7 +100,17 @@ class App extends Component {
           <>
             <Divider horizontal>Result</Divider>
             <Container className="resultContainer">
-                <Message className="receiptMessage">{this.state.receiptMessage}</Message>
+                <Message className="receiptMessage">
+                  <div>
+                    <b>Total Sum: </b>{this.state.receiptMessage.totalSum}
+                  </div>
+                  <div>
+                    <b>Market: </b>{this.state.receiptMessage.market}
+                  </div>
+                  <div>
+                    <b>Date: </b>{this.state.receiptMessage.date}
+                  </div>
+                </Message>
             </Container>
           </>
           }
