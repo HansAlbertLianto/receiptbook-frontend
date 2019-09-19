@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ui.container.messageContainer, .ui.container.submitButtonContainer {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.ui.image.uploadedImage {
+  margin-bottom: 1em;
+}
+
+.ui.container.inputFormContainer {
+  margin-bottom: 3em;
+}
+
+.ui.message.appMessage, .ui.message.receiptMessage {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+  width: 50%;
+}
+
+.ui.message.receiptMessage {
+  width: 50%;
+}
+
+.ui.form .field {
+  display: flex;
+}
+
+.ui.button.chooseImageButton, .ui.button.submitButton {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+}
+
+.ui.button.submitButton {
+  width: 10em;
+}
